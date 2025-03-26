@@ -10,7 +10,7 @@ body * {
 
 .jtk-demo-canvas > div {
     width: 100%;
-    flex-basis: 500px;
+    flex: 0 0 500px;
     border: 1px solid;
     position:relative;
 }

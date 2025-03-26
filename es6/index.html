@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>jsPlumb Toolkit - Active filtering demonstration</title>
+        <title>jsPlumb Toolkit - Hierarchy Layout demonstration</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 
         <!-- CSS -->
@@ -13,22 +13,30 @@
     <body>
 
 
-        <div class="jtk-demo-main">
+        <div style="display: flex" id="layout-main">
             <!-- this is the main drawing area -->
             <div class="jtk-demo-canvas canvas-wide">
-                <div id="canvas1">
+                <div id="canvas1" className="mb-2">
+                    <div class="label">Hierarchy layout with orthogonal edge routing</div>
+                </div>
+                <div id="canvas2" className="mb-2">
+                    <div class="label">Hierarchy layout with orthogonal edge routing, bus mode</div>
+                </div>
+                <div id="canvas3" className="mb-2">
+                    <div class="label">Hierarchy layout with direct edge routing</div>
+                </div>
+                <div id="canvas4">
                     <div class="label">Vertical alignment, parent relative placement</div>
                 </div>
-                <div id="canvas2">
+                <div id="canvas5">
                     <div class="label">Horizontal alignment, parent relative placement</div>
                 </div>
-                <div id="canvas3">
+                <div id="canvas6">
                     <div class="label">Vertical alignment, centered placement</div>
                 </div>
             </div>
 
             <div class="jtk-demo-rhs">
-                <a href="../../../index.html" class="p-1">Back to demo list</a>
                 <div class="description">
                     <h3>Hierarchy Layout</h3>
                     <p>
@@ -43,7 +51,7 @@
 
         <!-- /content -->
 
-        <script src="_build/bundle-es5.js"></script>
+        <script src="_build/bundle.js"></script>
 
     </body>
 </html>
