@@ -6,7 +6,6 @@ import {
   DEFAULT,
   HierarchyLayout,
   EdgeRoutingPlugin,
-  SegmentedConnector,
   OrthogonalRouterModes
 } from "@jsplumbtoolkit/browser-ui"
 import {NodeComponent} from "./node.component"
@@ -34,8 +33,6 @@ export class AppComponent implements AfterViewInit {
     },
     edges: {
       [DEFAULT]: {
-        connector: SegmentedConnector.type,
-        endpoint: BlankEndpoint.type,
         overlays:[
           {
             type:ArrowOverlay.type,
