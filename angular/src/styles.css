@@ -43,7 +43,9 @@ jsplumb-surface, .jtk-surface {
   outline:1px solid;
   padding:0.5rem;
   z-index:10;
-  background-color: #edf7f7;
+  color: white;
+  background-color: #3f72c3;
+  font-weight: 600;
 }
 
 /* KPI tree example */
